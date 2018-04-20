@@ -4,7 +4,7 @@ body, html {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Avenir Next";
+  font-family: "Gotham Black", "Avenir Next", "Avenir", "Arial";
 }
 #nav {
   width: 100%;
@@ -40,7 +40,7 @@ section {
   height: 800px;
   float: left;
 }
-#landing {
+#landing_face {
   background: url("/images/index.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -53,7 +53,6 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 40px;
 }
 .fa {
   padding: 20px;
@@ -67,7 +66,7 @@ section {
     color: rgba(#EF724C, 0.6);
     }
 }
-#skills {
+#back_shirt {
   height: 400px;
   background: url("/images/body.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
@@ -75,23 +74,30 @@ section {
   -o-background-size: cover;
   background-size: cover;
 }
-#work {
-  h1 {
-    font-family: "Gotham Black", "Avenir Next", "Avenir", "Arial";
-    text-align: center;
-    font-size: 50px;
-    padding: 45px;
-    margin-top: 50px;
-
-  p {
-    font-family: "Gotham Black", "Avenir Next", "Avenir", "Arial";
-    text-align: center;
-    font-size: 50px;
-    padding: 45px;
-    margin-top: 50px;
-  }
-  }
+#skills {
+  height: 650px;
+  background-color: #f9f9f9;
 }
+#skills p {
+  text-align: left;
+  padding-left: 13%;
+}
+#skills .icons {
+  height: 300px;
+  width: 500px;
+  float: right;
+  margin-top: -15%;
+  margin-right: 5%;
+}
+.icons img {
+  height: 80px;
+  width: 80px;
+  float: center;
+  padding: 20px;
+}
+
+
+/*
 button {
   font-family: "Gotham Black", "Avenir Next", "Avenir", "Arial";
   margin: 50px;
@@ -123,20 +129,43 @@ button {
   }
   #library {
     background-color: #8FF9F7;
-  }
+  } */
 
-#contact {
+#back_legs {
   height: 400px;
-  background: url("/images/legs.jpg") no-repeat center fixed;
+  background: url("/images/legs2.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#sista {
-  background-image: url("/images/work.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+#work {
+
+}
+#back_feet{
+  height: 400px;
+  background: url("/images/feet.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 45px;
+  margin-top: 50px;
+}
+h2 {
+  padding-left: 16%;
+  padding-top: 20%;
+  font-size: 35px;
+
+}
+
+p {
+  font-family: "Gotham Book", "Proxima Nova";
+  color: #C6C6C6;
+  text-align: center;
+  font-size: 18px;
 }
