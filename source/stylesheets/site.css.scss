@@ -66,6 +66,18 @@ section {
     color: rgba(#EF724C, 0.6);
     }
 }
+#footer .fa {
+  margin: 20px;
+  font-size: 50px;
+  width: 40px;
+  text-decoration: none;
+  color: black;
+  position: relative; top: 75%; left: -3%;
+
+  &:hover {
+    color: rgba(#fff, 0.6);
+    }
+}
 #back_shirt {
   height: 400px;
   background: url("/images/body.jpg") no-repeat center fixed;
@@ -75,7 +87,6 @@ section {
   background-size: cover;
 }
 #skills {
-  height: 650px;
   background-color: #f9f9f9;
 }
 #skills p {
@@ -87,7 +98,7 @@ section {
   width: 500px;
   float: right;
   margin-top: -15%;
-  margin-right: 5%;
+  margin-right: 12%;
 }
 .icons img {
   height: 80px;
@@ -114,6 +125,14 @@ section {
   -o-background-size: cover;
   background-size: cover;
 }
+#footer {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+  padding: 50px;
+  background-color: #eb947a;
+}
 h1 {
   text-align: center;
   font-size: 50px;
@@ -122,9 +141,12 @@ h1 {
 }
 h2 {
   padding-left: 16%;
-  padding-top: 20%;
+  padding-top: 25%;
   font-size: 35px;
 
+}
+h3 {
+  font-size: 22px;
 }
 p {
   font-family: "Gotham Book", "Proxima Nova";
@@ -147,7 +169,7 @@ p {
   vertical-align:middle;
   box-sizing:border-box;
   margin:0;
-  padding:0;
+  padding: 5px;
 }
 .grid-cell {
   display:block;
@@ -173,10 +195,10 @@ p {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    background: #fff url(img/link.png) no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
-    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    filter:alpha(opacity=0);/*For IE*/
     transition:all 0.6s;
 }
 #grid li:hover .grid-overlay {
@@ -191,12 +213,12 @@ p {
     width:100%;
     text-align:center;
     text-transform:capitalize;
-    font-size:18px;
+    font-size:21px;
     font-weight:bold;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Gotham Black", "Avenir Next", "Avenir", "Arial";
     font-weight:normal!important;
     top:40%;
-    color:white;
+    color: black;
     opacity:0;
     filter:alpha(opacity=0);/*For older IE*/
     transform:translateY(-20px);
