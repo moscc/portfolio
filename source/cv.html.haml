@@ -1,0 +1,19 @@
+#body
+  #nav
+    %ul
+      %li
+        %a{:href => "index.html#about"} About
+        %a{:href => "index.html#skills"} Skills
+        %a{:href => "index.html#work"} Work
+        %a{:href => "cv.html"} CV
+        %a{:href => "index.html#landing_face"} Home
+  #cv
+    %h1 What i did so far
+
+    .projects
+      - data.projects.each do |project|
+        %h2= project[:name]
+        %h4= project[:location]
+        %h4= project[:timeframe]
+        %p= project[:description]
+        %hr

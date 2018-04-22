@@ -1,0 +1,59 @@
+- name: Mora IK
+  location: Hockey player
+  timeframe: 2005 - 2007
+  description: Won MVP in 2005. Debuted in the senior team as youngest goalie in club history
+
+- name: Södertälje
+  location: Hockey player
+  timeframe: 2007 - 2008
+  description: Starter golie, and got second highest save percentage on the series that year.
+
+- name: Nyköping
+  location: Hockey player
+  timeframe: 2008 - 2009
+  description: Signed first pro contract in career while still being a junior. Team qualified for promotion.
+
+- name: Tierp
+  location: Hockey player
+  timeframe: 2009 - 2010
+  description: Signed contract for second highest division in Sweden. Ended up playing in their farm team Tierp.
+
+- name: Väsby
+  location: Hockey player
+  timeframe: 2010 - 2011
+  description: Moved to Stockholm after getting offer to play for a team that was aiming for promotion.
+
+- name: Vallentuna
+  location: Hockey player
+  timeframe: 2011 - 2012
+  description: After a good last season i followed the coach i had at Väsby, to join their biggest rival.
+
+- name: Gnesta
+  location: Hockey player
+  timeframe: 2013 - 2014
+  description: A local team had just moved up to div 1. So i got an offer and ended up playing there for half a season.
+
+- name: Founder
+  location: Elixir Fitness
+  timeframe: 2014 - present
+  description: One of the biggest fitness centers in sweden. Founded togheter with my younger brother.
+
+- name: Founder
+  location: MR Event
+  timeframe: 2015 - 2017
+  description: Founded an external sales company. Worked in all kinds of areas such as electronic, media, charity etc.
+
+- name: Founder
+  location: My Nutro
+  timeframe: 2016 - present
+  description: My Nutro is selling quality supplements to athletes and people looking to acheive their goals.
+
+- name: Founder
+  location: Komfy
+  timeframe: 2016 - present
+  description: In a world where criminals reached internet. Komfy brings the protection for your identity.
+
+- name: Founder
+  location: Bemondo
+  timeframe: 2016 - present
+  description: Working in the recruitment and staffing industry. Bemondo sets competition aside with it's process.
