@@ -1,5 +1,9 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+end
 
 activate :relative_assets
 activate :livereload
@@ -18,11 +22,6 @@ page '/*.txt', layout: false
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
-
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.deploy_method = :git
-end
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
