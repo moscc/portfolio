@@ -1,79 +1,87 @@
----
-title: MOSCC || Code & Colors
----
 #body
-  %section#landing_face
-    #nav
-      %ul
+  %body{:onload => "myFunction()", :style => "margin:0;"}
+    #loader-wrapper
+      #loader
+      .loader-section.section-left
+      .loader-section.section-right
+        %h2 You're about to witness
+        %p the magical world of moscc
+
+      %script(src="javascripts/site.js")
+
+  #content
+    %section#landing_face
+      #nav
+        %ul
+          %li
+            %a{:href => "#about"} About
+            %a{:href => "#skills"} Skills
+            %a{:href => "#work"} Work
+            %a{:href => "#landing_face"} Home
+
+    %section#about
+      %a.fa.fa-linkedin{:href => "https://www.linkedin.com/in/mathias-oscarsson-8b5988151/"}
+      %a.fa.fa-facebook{:href => "https://www.facebook.com/mathias.oscarsson.1"}
+      %a.fa.fa-instagram{:href => "https://www.instagram.com/mathiaoscarsson/"}
+
+    %section#back_shirt
+
+    %section#skills
+      %h2 Skills
+      %p (to pay them bills)
+      .icons
+        %img(src="/images/icons/css3.png")
+        %img(src="/images/icons/html5.png")
+        %img(src="/images/icons/javascript.png")
+        %img(src="/images/icons/ruby.png")
+        %img(src="/images/icons/rubyrails.png")
+        %img(src="/images/icons/github.png")
+        %img(src="/images/icons/haml.png")
+        %img(src="/images/icons/ps2.png")
+        %img(src="/images/icons/ai.png")
+        %img(src="/images/icons/sass.png")
+        %img(src="/images/icons/sq.png")
+        %img(src="/images/icons/wp.png")
+
+    %section#back_legs
+
+    %section#work
+      %h1 my work
+      %p I'm not only living life to the fullest, i occasionally do some work
+
+      %ul#grid
         %li
-          %a{:href => "#about"} About
-          %a{:href => "#skills"} Skills
-          %a{:href => "#work"} Work
-          %a{:href => "#landing_face"} Home
-
-  %section#about
-    %a.fa.fa-linkedin{:href => "https://www.linkedin.com/in/mathias-oscarsson-8b5988151/"}
-    %a.fa.fa-facebook{:href => "https://www.facebook.com/mathias.oscarsson.1"}
-    %a.fa.fa-instagram{:href => "https://www.instagram.com/mathiaoscarsson/"}
-
-  %section#back_shirt
-
-  %section#skills
-    %h2 Skills
-    %p (to pay them bills)
-    .icons
-      %img(src="/images/icons/css3.png")
-      %img(src="/images/icons/html5.png")
-      %img(src="/images/icons/javascript.png")
-      %img(src="/images/icons/ruby.png")
-      %img(src="/images/icons/rubyrails.png")
-      %img(src="/images/icons/github.png")
-      %img(src="/images/icons/haml.png")
-      %img(src="/images/icons/ps2.png")
-      %img(src="/images/icons/ai.png")
-      %img(src="/images/icons/sass.png")
-      %img(src="/images/icons/sq.png")
-      %img(src="/images/icons/wp.png")
-
-  %section#back_legs
-
-  %section#work
-    %h1 my work
-    %p I'm not only living life to the fullest, i occasionally do some work
-
-    %ul#grid
-      %li
-        %a.grid-cell{:href => "https://www.bemondo.se"}
-          %img.grid-img{:src => "/images/bemondo.jpg"}/
-          %span.grid-overlay
-          %span.grid-text Bemondo
-      %li
-        %a.grid-cell{:href => "https://www.mynutro.se"}
-          %img.grid-img{:src => "/images/mn.jpg"}/
-          %span.grid-overlay
-          %span.grid-text My Nutro
-      %li
-        %a.grid-cell{:href => "https://www.komfy.se"}
-          %img.grid-img{:src => "/images/komfy.jpg"}/
-          %span.grid-overlay
-          %span.grid-text komfy
-      %li
-        %a.grid-cell{:href => "https://www.elixirfitness.se"}
-          %img.grid-img{:src => "/images/ef.jpg"}/
-          %span.grid-overlay
-          %span.grid-text elixir fitness
-      %li
-        %a.grid-cell{:href => "https://github.com/moscc/address-book"}
-          %img.grid-img{:src => "/images/addboo.jpg"}/
-          %span.grid-overlay
-          %span.grid-text adress book
-      %li
-        %a.grid-cell{:href => "https://github.com/moscc/library-challenge"}
-          %img.grid-img{:src => "/images/library.jpg"}/
-          %span.grid-overlay
-          %span.grid-text library
-      %li
-        %a.grid-cell{:href => "https://github.com/moscc/fizzbuzz-js"}
-          %img.grid-img{:src => "/images/fizzbuzz.jpg"}/
-          %span.grid-overlay
-          %span.grid-text FizzBuzz
+          %a.grid-cell{:href => "https://www.bemondo.se"}
+            %img.grid-img{:src => "/images/bemondo.jpg"}/
+            %span.grid-overlay
+            %span.grid-text Bemondo
+        %li
+          %a.grid-cell{:href => "https://www.mynutro.se"}
+            %img.grid-img{:src => "/images/mn.jpg"}/
+            %span.grid-overlay
+            %span.grid-text My Nutro
+        %li
+          %a.grid-cell{:href => "https://www.komfy.se"}
+            %img.grid-img{:src => "/images/komfy.jpg"}/
+            %span.grid-overlay
+            %span.grid-text komfy
+        %li
+          %a.grid-cell{:href => "https://www.elixirfitness.se"}
+            %img.grid-img{:src => "/images/ef.jpg"}/
+            %span.grid-overlay
+            %span.grid-text elixir fitness
+        %li
+          %a.grid-cell{:href => "https://github.com/moscc/address-book"}
+            %img.grid-img{:src => "/images/addboo.jpg"}/
+            %span.grid-overlay
+            %span.grid-text adress book
+        %li
+          %a.grid-cell{:href => "https://github.com/moscc/library-challenge"}
+            %img.grid-img{:src => "/images/library.jpg"}/
+            %span.grid-overlay
+            %span.grid-text library
+        %li
+          %a.grid-cell{:href => "https://github.com/moscc/fizzbuzz-js"}
+            %img.grid-img{:src => "/images/fizzbuzz.jpg"}/
+            %span.grid-overlay
+            %span.grid-text FizzBuzz
